@@ -4,7 +4,7 @@ import { ImgArrival1, ImgArrival2, ImgArrival3 } from '../assets/images'
 const NewArrival = () => {
     return (
         <section className="mt-44 container">
-            <span className="font-semibold text-base text-black flex justify-center content-center">New Arrival in This Week</span>
+            <span className="font-semibold text-2xl text-black flex justify-center content-center">New Arrival in This Week</span>
             <div className="flex justify-between mt-3">
                 <div>
                     <img src={ImgArrival1} className="img-arrival object-cover" alt="Flowly Square Dress" />

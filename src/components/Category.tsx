@@ -4,7 +4,7 @@ import {CategoryMen, CategoryWomen, CategoryKids} from '../assets/images'
 const Category = () => {
     return (
         <section className="container mt-20">
-            <span className="font-semibold text-base text-black flex justify-center content-center">Clothes Category</span>
+            <span className="font-semibold text-2xl text-black flex justify-center content-center">Clothes Category</span>
             <div className="flex justify-between mt-3">
                 <div className="relative">
                     <img src={CategoryMen} className="img-arrival object-cover" alt="Flowly Square Dress" />
