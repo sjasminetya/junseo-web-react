@@ -1,5 +1,5 @@
 import React from 'react'
-import {ImgArrival1, ImgArrival2, ImgArrival3} from '../assets/images'
+import { ImgArrival1, ImgArrival2, ImgArrival3 } from '../assets/images'
 
 const NewArrival = () => {
     return (
