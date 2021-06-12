@@ -1,0 +1,16 @@
+section.section-hero {
+    background-image: url('../../assets/images/ImgHero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px !important;
+
+    .container {
+        h1, p, span {
+            color: #FFFFFF;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+}
