@@ -8,7 +8,7 @@ type ButtonProps = {
     isDisabled?: boolean;
     isLoading?: boolean;
     href?: string | any;
-    isInternalLink?: string;
+    isInternalLink?: boolean;
     type: "Link" | "Button";
     isBlack?: boolean;
     isWhite?: boolean;
@@ -50,6 +50,12 @@ const Button: React.FC<ButtonProps> = (props) => {
                     >
                         {props.children}
                     </Link>
+                </>
+            )
+        } else {
+            return (
+                <>
+                    <a href={props.href} className={className.join(" ")} onClick={onClick}>{props.children}</a>
                 </>
             )
         }
