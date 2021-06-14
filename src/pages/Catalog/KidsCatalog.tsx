@@ -8,24 +8,24 @@ const KidsCatalog = () => {
     return (
         <>
             <Header />
-            <Catalog type="Kids" images={[
+            <Catalog type="kids" images={[
                 {
                     image: KidsClothing,
-                    title: "Clothing",
+                    title: "clothing",
                     hasSource: true,
                     source: "https://unsplash.com/@ubyyanes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
                     name: "Uby Yanes"
                 },
                 {
                     image: KidsShoes,
-                    title: "Shoes",
+                    title: "shoes",
                     hasSource: true,
                     source: "https://unsplash.com/@seffen99?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
                     name: "Sven Brandsma"
                 },
                 {
                     image: KidsBags,
-                    title: "Bags",
+                    title: "bags",
                     hasSource: true,
                     source: "https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
                     name: "Kelly Sikkema"

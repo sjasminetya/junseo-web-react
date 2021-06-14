@@ -1,0 +1,21 @@
+section {
+    .ant-breadcrumb {
+        font-size: 16px;
+        .ant-breadcrumb-link {
+            color: #000000;
+            a {
+                color: rgba(0, 0, 0, 0.5);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .ant-breadcrumb-separator {
+            padding: 0 10px 0 10px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "Woman": [
+        {
+            "_id": "W-1",
+            "name": "Flowly Square Dress",
+            "size": ["S"],
+            "color": ["Gray"],
+            "price": "Rp. 230.000",
+            "image": "/images/ImgArrival1.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-2",
+            "name": "Sweater Red Crop",
+            "size": ["S", "XL"],
+            "color": ["Gray", "Red"],
+            "price": "Rp. 156.000",
+            "image": "/images/ImgArrival2.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-3",
+            "name": "Double breasted blazer",
+            "size": ["L"],
+            "color": ["Gray"],
+            "price": "Rp. 250.000",
+            "image": "/images/ImgArrival3.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-4",
+            "name": "Blazer Jacket",
+            "size": ["S", "L"],
+            "color": ["Gray", "Black"],
+            "price": "Rp. 180.000",
+            "image": "/images/WomanClothes4.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-5",
+            "name": "Black Dress",
+            "size": ["S"],
+            "color": ["Black"],
+            "price": "Rp. 250.000",
+            "image": "/images/Popular3.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-6",
+            "name": "Crop Dress",
+            "size": ["S", "L", "XL"],
+            "color": ["Baby Blue"],
+            "price": "Rp. 140.000",
+            "image": "/images/WomanClothes3.jpg",
+            "category": "woman",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "W-7",
+            "name": "Boot",
+            "size": ["37"],
+            "color": ["Chocolate"],
+            "price": "Rp. 140.000",
+            "image": "/images/WomanShoes.jpg",
+            "category": "woman",
+            "catalog": "shoes"
+        }
+    ],
+    "men": [
+        {
+            "_id": "M-1",
+            "name": "Suit",
+            "size": ["S", "L", "XL"],
+            "color": ["Black"],
+            "price": "Rp. 280.000",
+            "image": "/images/CategoryMan.jpg",
+            "category": "men",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "M-2",
+            "name": "Pink Jas",
+            "size": ["L"],
+            "color": ["Pink"],
+            "price": "Rp. 300.000",
+            "image": "/images/CatalogClothing.jpg",
+            "category": "men",
+            "catalog": "clothing"
+        },
+        {
+            "_id": "M-3",
+            "name": "Denim Jacket",
+            "size": ["XL"],
+            "color": ["Blue"],
+            "price": "Rp. 180.000",
+            "image": "/images/ImgBlog.jpg",
+            "category": "men",
+            "catalog": "clothing"
+        }
+    ],
+    "kids": []
+}

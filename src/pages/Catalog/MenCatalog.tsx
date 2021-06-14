@@ -8,20 +8,20 @@ const MenCatalog = () => {
     return (
         <>
             <Header />
-            <Catalog type="Men" images={[
+            <Catalog type="men" images={[
                 {
                     image: CatalogClothing,
-                    title: "Clothing",
+                    title: "clothing",
                     hasSource: false
                 },
                 {
                     image: CatalogShoes,
-                    title: "Shoes",
+                    title: "shoes",
                     hasSource: false
                 },
                 {
                     image: CatalogBags,
-                    title: "Bags",
+                    title: "bags",
                     hasSource: false
                 }
             ]} />

@@ -55,7 +55,7 @@ const Button: React.FC<ButtonProps> = (props) => {
         } else {
             return (
                 <>
-                    <a href={props.href} className={className.join(" ")} onClick={onClick}>{props.children}</a>
+                    <a href={props.href} target="_blank" rel="noreferrer" className={className.join(" ")} onClick={onClick}>{props.children}</a>
                 </>
             )
         }
