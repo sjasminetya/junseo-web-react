@@ -9,7 +9,7 @@ type ButtonProps = {
     isLoading?: boolean;
     href?: string | any;
     isInternalLink?: boolean;
-    type: "Link" | "Button";
+    type: "Link" | "Button" | "submit";
     isBlack?: boolean;
     isWhite?: boolean;
     radius: "4" | "10";
@@ -62,7 +62,7 @@ const Button: React.FC<ButtonProps> = (props) => {
     }
 
     return (
-        <button className={className.join(" ")} onClick={onClick}>
+        <button type={props.type === "submit" ? "submit" : "button"} className={className.join(" ")} onClick={onClick}>
             {
                 props.isLoading ? (
                     <div className="d-flex justify-content-center">

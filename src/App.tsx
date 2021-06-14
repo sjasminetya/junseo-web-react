@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './assets/scss/style.scss';
+import "antd/dist/antd.css";
 import WomanDetail from './pages/Catalog/DetailCatalog/WomanDetail';
 import KidsCatalog from './pages/Catalog/KidsCatalog';
 import KidsList from './pages/Catalog/ListCatalog/KidsList';
