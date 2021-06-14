@@ -12,22 +12,22 @@ const WomanCatalog = () => {
                 {
                     image: WomanClothing,
                     title: "Clothing",
-                    source: "https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    anotherSource: "https://unsplash.com/s/photos/woman-clothes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "engin akyurt"
+                    hasSource: true,
+                    source: "https://unsplash.com/@iamkrishh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                    name: "Krishh"
                 },
                 {
                     image: WomanShoes,
                     title: "Shoes",
+                    hasSource: true,
                     source: "https://unsplash.com/@veritysanders?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    anotherSource: "https://unsplash.com/s/photos/woman-shoes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
                     name: "Verity Sanders"
                 },
                 {
                     image: WomanBags,
                     title: "Bags",
+                    hasSource: true,
                     source: "https://unsplash.com/@arnosenoner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    anotherSource: "https://unsplash.com/s/photos/bags?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
                     name: "Arno Senoner"
                 }
             ]} />

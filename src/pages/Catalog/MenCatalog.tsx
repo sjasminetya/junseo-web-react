@@ -12,17 +12,17 @@ const MenCatalog = () => {
                 {
                     image: CatalogClothing,
                     title: "Clothing",
-                    source: ""
+                    hasSource: false
                 },
                 {
                     image: CatalogShoes,
                     title: "Shoes",
-                    source: ""
+                    hasSource: false
                 },
                 {
                     image: CatalogBags,
                     title: "Bags",
-                    source: ""
+                    hasSource: false
                 }
             ]} />
             <Footer />

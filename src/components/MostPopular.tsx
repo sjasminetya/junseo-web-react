@@ -1,31 +1,22 @@
 import React from 'react'
-import {Popular1, Popular2, Popular3, Popular4, Popular5, Popular6} from '../assets/images'
+import { Popular1, Popular2, Popular3, Popular4, Popular5, Popular6 } from '../assets/images'
+import Bounce from 'react-reveal/Bounce'
 
 const MostPopular = () => {
+    const images = [Popular1, Popular2, Popular3, Popular4, Popular5, Popular6]
     return (
         <section className="container mt-20">
             <span className="font-semibold text-2xl text-black flex justify-center content-center">Most Popular</span>
             <div className="row mt-3">
-                <div className="col-4">
-                    <img src={Popular1} alt="" />
-                </div>
-                <div className="col-4">
-                    <img src={Popular2} alt="" />
-                </div>
-                <div className="col-4">
-                    <img src={Popular3} alt="" />
-                </div>
-            </div>
-            <div className="row mt-5">
-                <div className="col-4">
-                    <img src={Popular4} alt="" />
-                </div>
-                <div className="col-4">
-                    <img src={Popular5} alt="" />
-                </div>
-                <div className="col-4">
-                    <img src={Popular6} alt="" />
-                </div>
+                {
+                    images.map((val, i) => (
+                        <Bounce bottom delay={300 * i}>
+                            <div className="col-4" key={i}>
+                                <img src={val} className="mb-3" alt="" />
+                            </div>
+                        </Bounce>
+                    ))
+                }
             </div>
         </section>
     )

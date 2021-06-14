@@ -18,8 +18,11 @@ import CatalogBags from './CatalogBags.jpg';
 import WomanClothing from './WomanClothes.jpg';
 import WomanShoes from './WomanShoes.jpg';
 import WomanBags from './WomanBags.jpg';
+import KidsClothing from './KidsClothes.jpg';
+import KidsShoes from './KidsShoes.jpg';
+import KidsBags from './KidsBags.jpg';
 import { ReactComponent as IconTruck } from './icons/icTruck.svg';
 import { ReactComponent as IconGift } from './icons/IcGift.svg';
 import { ReactComponent as IconShoppingBag } from './icons/IcShopping-bag.svg';
 
-export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing }
+export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing, KidsClothing, KidsShoes, KidsBags }

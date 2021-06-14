@@ -6,13 +6,15 @@ import Hero from '../components/Hero'
 import MostPopular from '../components/MostPopular'
 import NewArrival from '../components/NewArrival'
 import Footer from '../components/Footer'
+import { useRef } from 'react'
 
 const LandingPage = () => {
+    const refNewArrival = useRef()
     return (
         <>
             <Header />
-            <Hero />
-            <NewArrival />
+            <Hero refNewArrival={refNewArrival} />
+            <NewArrival refNewArrival={refNewArrival} />
             <Category />
             <Blog />
             <MostPopular />
