@@ -8,7 +8,7 @@ import { IAppState } from '../../redux/reducers'
 
 const Header = () => {
     const cart = useSelector((state: IAppState) => state.product.cart)
-    console.log("header", cart.length)
+    const totalQty = cart.length
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
@@ -18,10 +18,14 @@ const Header = () => {
                         <Link to="/" className="nav-link active text-xs font-normal" aria-current="page" href="#">Home</Link>
                     </li>
                     <li className="nav-item flex">
-                        <Link to="/cart" className="nav-link active text-xs font-normal" aria-current="page" href="#">
+                        <Link to="/cart" className="nav-link active text-xs font-normal relative" aria-current="page" href="#">
+                            {
+                                totalQty >= 1 && (
+                                    <span className="icon-cart">{totalQty}</span>
+                                )
+                            }
                             <IoCartOutline size="18" />
                         </Link>
-                        {cart.length}
                     </li>
                     <li className="nav-item flex">
                         <FaRegUser size="15" color="#FFFFFF" className="mt-2" />

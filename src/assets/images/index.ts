@@ -27,8 +27,9 @@ import Woman2 from './WomanClothes2.jpg';
 import Woman3 from './WomanClothes3.jpg';
 import Woman4 from './WomanClothes4.jpg';
 import Woman5 from './WomanClothes5.jpg';
+import success from './success.jpg';
 import { ReactComponent as IconTruck } from './icons/icTruck.svg';
 import { ReactComponent as IconGift } from './icons/IcGift.svg';
 import { ReactComponent as IconShoppingBag } from './icons/IcShopping-bag.svg';
 
-export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing, KidsClothing, KidsShoes, KidsBags, Woman, Woman1, Woman2, Woman3, Woman4, Woman5 }
+export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing, KidsClothing, KidsShoes, KidsBags, Woman, Woman1, Woman2, Woman3, Woman4, Woman5, success }

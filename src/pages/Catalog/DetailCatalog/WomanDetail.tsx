@@ -77,7 +77,7 @@ const WomanDetail = () => {
                                 <p className="text-lg">Color</p>
                             </div>
                             <div className="w-2/4 flex">
-                                <Button type="Button" className="border-2 border-black w-12 h-10" radius="4">
+                                <Button type="Button" className="border-2 border-black w-20 h-10" radius="4">
                                     {detail?.color[0]}
                                 </Button>
                             </div>

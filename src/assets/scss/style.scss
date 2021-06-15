@@ -17,3 +17,19 @@ section {
 .awssld__content {
     background-color: white !important;
 }
+
+.icon-cart {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px auto;
+    font-size: 10px;
+    position: absolute;
+    left: 40%;
+    top: -2px;
+}
