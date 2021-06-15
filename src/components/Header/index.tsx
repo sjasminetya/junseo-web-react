@@ -29,7 +29,7 @@ const Header = () => {
                     </li>
                     <li className="nav-item flex">
                         <FaRegUser size="15" color="#FFFFFF" className="mt-2" />
-                        <span className="nav-link active text-xs font-normal">Welcome, Shaula</span>
+                        <span className="nav-link active text-xs font-normal">Welcome</span>
                     </li>
                     {/* <li className="nav-item border border-white rounded">
                         <Link to="/login" className="nav-link active text-xs font-normal" aria-current="page" href="#">Login</Link>

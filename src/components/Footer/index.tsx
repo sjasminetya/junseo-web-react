@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="col-4">
                         <h6 className="font-medium text-lg text-white">Contact Us</h6>
                         <p className="font-thin text-semi-white">Address: Bekasi, West Java</p>
-                        <p className="font-thin text-semi-white">Phone: +62 8139 2657 117</p>
+                        <p className="font-thin text-semi-white">Phone: -</p>
                         <p className="font-thin text-semi-white">Email: shaulajasminetya22@gmail.com</p>
                     </div>
                 </div>
