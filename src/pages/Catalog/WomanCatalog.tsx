@@ -12,23 +12,17 @@ const WomanCatalog = () => {
                 {
                     image: WomanClothing,
                     title: "clothing",
-                    hasSource: true,
-                    source: "https://unsplash.com/@iamkrishh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Krishh"
+                    hasSource: false
                 },
                 {
                     image: WomanShoes,
                     title: "shoes",
-                    hasSource: true,
-                    source: "https://unsplash.com/@veritysanders?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Verity Sanders"
+                    hasSource: false
                 },
                 {
                     image: WomanBags,
                     title: "bags",
-                    hasSource: true,
-                    source: "https://unsplash.com/@arnosenoner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Arno Senoner"
+                    hasSource: false
                 }
             ]} />
             <Footer />

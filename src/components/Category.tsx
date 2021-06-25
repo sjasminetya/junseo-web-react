@@ -7,7 +7,7 @@ const Category = () => {
     const history = useHistory()
     return (
         <section className="container mt-20">
-            <Fade right>
+            <Fade left>
                 <span className="font-semibold text-2xl text-black flex justify-center content-center">Clothes Category</span>
                 <div className="flex justify-between mt-3">
                     <div className="relative cursor-pointer" onClick={() => history.push("/men")}>

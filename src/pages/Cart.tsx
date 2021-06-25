@@ -4,11 +4,11 @@ import Footer from '../components/Footer'
 import Button from '../components/Button'
 import { useDispatch, useSelector } from 'react-redux'
 import { IAppState } from '../redux/reducers'
-import { Checkbox } from 'antd'
 import { addQty, readyBuy, reduceQty, reduceReadyBuy, removeItem } from '../redux/action'
 import { useState } from 'react'
 import formatRupiah from '../utils/formatNumber'
 import { useHistory } from 'react-router-dom'
+import Checkbox from '../components/Checkbox'
 
 const Cart = () => {
     const history = useHistory()
@@ -61,7 +61,7 @@ const Cart = () => {
                                     <div className="flex">
                                         <img src={val.image} alt={val.name} className="object-cover" style={{ width: 125, height: 200 }} />
                                         <div className="ml-3">
-                                            <Checkbox value={val.name} onChange={(e) => handleCheckEL(val, e)}></Checkbox>
+                                            <Checkbox value={val.name} onChange={(e) => handleCheckEL(val, e)} />
                                             <h6>{val.name}</h6>
                                             <h6>{val.price}</h6>
                                             <div className="flex">

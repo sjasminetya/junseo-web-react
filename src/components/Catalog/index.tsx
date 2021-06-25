@@ -1,6 +1,5 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import Button from '../Button'
 import Breadcrumb from '../Breadcrumb'
 import './index.scss'
 
@@ -20,13 +19,29 @@ const Catalog: React.FC<CatalogProps> = (props) => {
                 {
                     props.images.map((val, i) => (
                         <div className="col-4 relative cursor-pointer" key={i} onClick={() => history.push(`/${props.type}/${val.title}`)}>
-                            <img src={val.image} alt={val.title} className="object-cover" style={{ width: 400, height: 600 }} />
-                            <Button className="absolute py-3 custom-top custom-width uppercase text-black font-medium text-xl bg-gray-200" type="Button" radius="4">
-                                {val.title}
-                            </Button>
                             {
-                                val.hasSource && (
-                                    <span>Photo by <a href={val.source}>{val.name}</a> on Unsplash</span>
+                                !val.image ? (
+                                    <div className="flex">
+                                        <div className="spinner-grow" role="status">
+                                            <span className="visually-hidden">Loading...</span>
+                                        </div>
+                                        <div className="spinner-grow" role="status">
+                                            <span className="visually-hidden">Loading...</span>
+                                        </div>
+                                        <div className="spinner-grow" role="status">
+                                            <span className="visually-hidden">Loading...</span>
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <>
+                                            <img src={val.image} alt={val.title} className="object-cover" style={{ width: 400, height: 600 }} />
+                                            <h3 className="text-center uppercase">{val.title}</h3>
+                                            {
+                                                val.hasSource && (
+                                                    <span>Photo by <a href={val.source}>{val.name}</a> on Unsplash</span>
+                                                )
+                                            }
+                                    </>
                                 )
                             }
                         </div>

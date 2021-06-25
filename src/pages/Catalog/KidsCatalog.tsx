@@ -12,23 +12,17 @@ const KidsCatalog = () => {
                 {
                     image: KidsClothing,
                     title: "clothing",
-                    hasSource: true,
-                    source: "https://unsplash.com/@ubyyanes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Uby Yanes"
+                    hasSource: false
                 },
                 {
                     image: KidsShoes,
                     title: "shoes",
-                    hasSource: true,
-                    source: "https://unsplash.com/@seffen99?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Sven Brandsma"
+                    hasSource: false
                 },
                 {
                     image: KidsBags,
                     title: "bags",
-                    hasSource: true,
-                    source: "https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-                    name: "Kelly Sikkema"
+                    hasSource: false
                 }
             ]} />
             <Footer />
