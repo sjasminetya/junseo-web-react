@@ -14,7 +14,8 @@ type ButtonProps = {
     isWhite?: boolean;
     radius: "4" | "10";
     isShadow?: boolean;
-    qty?: number
+    qty?: number;
+    check?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
@@ -62,7 +63,7 @@ const Button: React.FC<ButtonProps> = (props) => {
         }
     }
     return (
-        <button type={props.type === "submit" ? "submit" : "button"} disabled={props.qty === 1} className={className.join(" ")} onClick={onClick}>
+        <button type={props.type === "submit" ? "submit" : "button"} disabled={props.qty === 1 || props.check === false} className={className.join(" ")} onClick={onClick}>
             {
                 props.isLoading ? (
                     <div className="d-flex justify-content-center">

@@ -12,6 +12,7 @@ import WomanCatalog from './pages/Catalog/WomanCatalog';
 import LandingPage from './pages/LandingPage';
 import Cart from './pages/Cart';
 import Success from './pages/Success';
+import Checkout from './pages/Checkout';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 				<Route path="/woman/:catalog" exact component={WomanList}></Route>
 				<Route path="/woman/:catalog/:_id" component={WomanDetail}></Route>
 				<Route path="/cart" component={Cart}></Route>
+				<Route path="/checkout" component={Checkout}></Route>
 				<Route path="/success" component={Success}></Route>
 			</Router>
 		</div>

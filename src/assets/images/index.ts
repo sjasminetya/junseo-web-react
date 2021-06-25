@@ -31,5 +31,10 @@ import success from './success.jpg';
 import { ReactComponent as IconTruck } from './icons/icTruck.svg';
 import { ReactComponent as IconGift } from './icons/IcGift.svg';
 import { ReactComponent as IconShoppingBag } from './icons/IcShopping-bag.svg';
+import Like from './like.jpg';
+import Paypal from './paypal.jpg';
+import AmericanExpress from './american-express.jpg';
+import MasterCard from './master-card.jpg';
+import Visa from './visa.jpg';
 
-export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing, KidsClothing, KidsShoes, KidsBags, Woman, Woman1, Woman2, Woman3, Woman4, Woman5, success }
+export { ImgHero, ImgArrival1, ImgArrival2, ImgArrival3, CategoryMen, CategoryWomen, CategoryKids, ImgBlog, Popular1, Popular2, Popular3, Popular4, Popular5, Popular6, IconTruck, IconGift, IconShoppingBag, CatalogBags, CatalogShoes, CatalogClothing, WomanBags, WomanShoes, WomanClothing, KidsClothing, KidsShoes, KidsBags, Woman, Woman1, Woman2, Woman3, Woman4, Woman5, success, Like, Paypal, AmericanExpress, MasterCard, Visa }

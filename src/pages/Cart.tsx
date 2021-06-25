@@ -57,7 +57,7 @@ const Cart = () => {
                         <hr />
                         {
                             cart.map((val, i) => (
-                                <div className="flex mb-4 justify-between">
+                                <div className="flex mb-4 justify-between" key={i}>
                                     <div className="flex">
                                         <img src={val.image} alt={val.name} className="object-cover" style={{ width: 125, height: 200 }} />
                                         <div className="ml-3">
@@ -95,7 +95,7 @@ const Cart = () => {
                             <p>Item Subtotal</p>
                             <p>Rp. {checkEl ? formatRupiah(totalPrice) : 0}</p>
                         </div>
-                        <Button type="Button" className="w-full h-10 text-white" isBlack radius="4" onClick={() => history.push("/success")}>
+                        <Button type="Button" check={checkEl} className="w-full h-10 text-white" isBlack radius="4" onClick={() => history.push("/checkout")}>
                             CHECKOUT
                         </Button>
                     </div>
