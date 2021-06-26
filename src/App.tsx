@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import WomanDetail from './pages/Catalog/DetailCatalog/WomanDetail';
 import KidsCatalog from './pages/Catalog/KidsCatalog';
 import KidsList from './pages/Catalog/ListCatalog/KidsList';
