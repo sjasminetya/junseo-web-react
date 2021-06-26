@@ -1,8 +1,8 @@
 {
-  "name": "junseo-web-react",
+  "name": "web-junseo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sjasminetya.github.io/junseo-web-react",
+  "homepage": "https://sjasminetya.github.io/web-junseo",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.14.1",
