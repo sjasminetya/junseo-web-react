@@ -2,20 +2,40 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
     min-height: 500px;
     margin-bottom: 20px;
+
+    .zoom {
+        figure {
+            overflow: hidden;
+            margin: 0 10px;
+            border-radius: 6px;
+
+            img {
+                transform: scale(1);
+                transition: 0.3s ease-in-out;
+            }
+
+            img.img-arrival {
+                width: 325px;
+                height: 425px;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+        }
+
+        &:hover img {
+            transform: scale(1.5);
+        }
+    }
 }
 
 .text-semi-black {
     color: #272727;
-}
-
-.img-arrival {
-    width: 325px;
-    height: 425px;
 }
 
 .awssld__content {

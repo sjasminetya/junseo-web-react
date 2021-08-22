@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
 import Input from "./Input";
+import Loading from "./Loading";
 import { Blog, Category, MostPopular, NewArrival, Success } from "./Elements";
 
 export {
@@ -21,5 +22,6 @@ export {
     MostPopular,
     NewArrival,
     Checkbox,
-    Success
+    Success,
+    Loading
 }
