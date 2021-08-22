@@ -1,6 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import { CategoryMen, CategoryWomen, CategoryKids } from '../assets/images'
+import { CategoryMen, CategoryWomen, CategoryKids } from '../../../assets/images'
 import Fade from 'react-reveal/Fade'
 
 const Category = () => {
@@ -24,7 +24,6 @@ const Category = () => {
                     </div>
                 </div>
             </Fade>
-
         </section>
     )
 }

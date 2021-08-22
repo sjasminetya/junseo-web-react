@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popular1, Popular2, Popular3, Popular4, Popular5, Popular6 } from '../assets/images'
+import { Popular1, Popular2, Popular3, Popular4, Popular5, Popular6 } from '../../../assets/images'
 import Bounce from 'react-reveal/Bounce'
 
 const MostPopular = () => {

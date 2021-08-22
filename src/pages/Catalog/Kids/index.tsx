@@ -1,8 +1,6 @@
 import React from 'react'
-import Footer from '../../components/Footer'
-import Header from '../../components/Header'
-import Catalog from '../../components/Catalog'
-import { KidsClothing, KidsShoes, KidsBags } from '../../assets/images'
+import { KidsClothing, KidsShoes, KidsBags } from '../../../assets/images'
+import { Header, Footer, Catalog } from '../../../components'
 
 const KidsCatalog = () => {
     return (

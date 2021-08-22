@@ -1,16 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import WomanDetail from './pages/Catalog/DetailCatalog/WomanDetail';
-import KidsCatalog from './pages/Catalog/KidsCatalog';
-import KidsList from './pages/Catalog/ListCatalog/KidsList';
-import MenList from './pages/Catalog/ListCatalog/MenList';
-import WomanList from './pages/Catalog/ListCatalog/WomanList';
-import MenCatalog from './pages/Catalog/MenCatalog';
-import WomanCatalog from './pages/Catalog/WomanCatalog';
-import LandingPage from './pages/LandingPage';
-import Cart from './pages/Cart';
-import Success from './pages/Success';
-import Checkout from './pages/Checkout';
+import { Cart, Checkout, LandingPage, MenCatalog, MenList, WomanCatalog, KidsCatalog, KidsList, WomanList, WomanDetail } from './pages';
+import { Success } from './components';
 import './assets/scss/style.scss';
 import "antd/dist/antd.css";
 

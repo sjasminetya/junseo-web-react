@@ -1,12 +1,6 @@
 import React from 'react'
-import Blog from '../components/Blog'
-import Category from '../components/Category'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import MostPopular from '../components/MostPopular'
-import NewArrival from '../components/NewArrival'
-import Footer from '../components/Footer'
 import { useRef } from 'react'
+import { Blog, Category, MostPopular, NewArrival, Hero, Header, Footer } from '../../components'
 
 const LandingPage = () => {
     const refNewArrival = useRef()

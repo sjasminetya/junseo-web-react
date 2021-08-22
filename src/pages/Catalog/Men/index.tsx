@@ -1,26 +1,24 @@
 import React from 'react'
-import Catalog from '../../components/Catalog'
-import { WomanBags, WomanClothing, WomanShoes } from '../../assets/images'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import { CatalogShoes, CatalogBags, CatalogClothing } from '../../../assets/images'
+import { Header, Footer, Catalog } from '../../../components'
 
-const WomanCatalog = () => {
+const MenCatalog = () => {
     return (
         <>
             <Header />
-            <Catalog type="woman" images={[
+            <Catalog type="men" images={[
                 {
-                    image: WomanClothing,
+                    image: CatalogClothing,
                     title: "clothing",
                     hasSource: false
                 },
                 {
-                    image: WomanShoes,
+                    image: CatalogShoes,
                     title: "shoes",
                     hasSource: false
                 },
                 {
-                    image: WomanBags,
+                    image: CatalogBags,
                     title: "bags",
                     hasSource: false
                 }
@@ -30,4 +28,4 @@ const WomanCatalog = () => {
     )
 }
 
-export default WomanCatalog
+export default MenCatalog

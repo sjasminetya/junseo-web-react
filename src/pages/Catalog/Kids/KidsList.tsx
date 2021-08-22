@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from '../../../components/Header'
-import Footer from '../../../components/Footer'
-import Breadcrumb from '../../../components/Breadcrumb'
+import { Header, Footer, Breadcrumb } from '../../../components'
 import products from '../../../json/products.json'
 import { AiFillAlert } from 'react-icons/ai'
 import { useLocation } from 'react-router-dom'

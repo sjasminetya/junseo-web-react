@@ -1,15 +1,12 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import { useDispatch, useSelector } from 'react-redux'
-import { IAppState } from '../redux/reducers'
-import formatRupiah from '../utils/formatNumber'
-import Button from '../components/Button'
-import { Like, Paypal, Visa, MasterCard, AmericanExpress } from '../assets/images'
+import { IAppState } from '../../redux/reducers'
+import formatRupiah from '../../utils/formatNumber'
+import { Like, Paypal, Visa, MasterCard, AmericanExpress } from '../../assets/images'
 import { useHistory } from 'react-router-dom'
-import Input from '../components/Input'
 import { useState } from 'react'
-import { reduceReadyBuy, removeItem } from '../redux/action'
+import { reduceReadyBuy, removeItem } from '../../redux/action'
+import { Header, Input, Button, Footer } from '../../components'
 
 const Checkout = () => {
     const history = useHistory()

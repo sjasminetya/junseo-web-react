@@ -1,7 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import { success } from '../assets/images'
-import Button from '../components/Button'
+import { success } from '../../../assets/images'
+import Button from '../../Button'
 
 const Success = () => {
     const history = useHistory()

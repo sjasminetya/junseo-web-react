@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImgBlog } from '../assets/images'
+import { ImgBlog } from '../../../assets/images'
 import { AiOutlineRight } from 'react-icons/ai'
 import Bounce from 'react-reveal/Bounce'
 
@@ -22,7 +22,6 @@ const Blog = () => {
                     </div>
                 </div>
             </Bounce>
-
         </section>
     )
 }

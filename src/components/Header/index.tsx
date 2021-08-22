@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaRegUser } from 'react-icons/fa'
 import { IoCartOutline } from 'react-icons/io5'
 import './index.scss'
 import { useSelector } from 'react-redux'
@@ -17,6 +16,15 @@ const Header = () => {
                     <li className="nav-item">
                         <Link to="/" className="nav-link active text-xs font-normal" aria-current="page" href="#">Home</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link active text-xs font-normal" aria-current="page" href="#">Blog</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link active text-xs font-normal" aria-current="page" href="#">About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link active text-xs font-normal" aria-current="page" href="#">Help</Link>
+                    </li>
                     <li className="nav-item flex">
                         <Link to="/cart" className="nav-link active text-xs font-normal relative" aria-current="page" href="#">
                             {
@@ -27,10 +35,9 @@ const Header = () => {
                             <IoCartOutline size="18" />
                         </Link>
                     </li>
-                    {/* <li className="nav-item flex">
-                        <FaRegUser size="15" color="#FFFFFF" className="mt-2" />
-                        <span className="nav-link active text-xs font-normal">Welcome</span>
-                    </li> */}
+                    <li className="nav-item flex">
+                        <span className="nav-link active text-xs font-normal">Welcome, Shaula</span>
+                    </li>
                     {/* <li className="nav-item border border-white rounded">
                         <Link to="/login" className="nav-link active text-xs font-normal" aria-current="page" href="#">Login</Link>
                     </li>

@@ -1,14 +1,11 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Button from '../components/Button'
 import { useDispatch, useSelector } from 'react-redux'
-import { IAppState } from '../redux/reducers'
-import { addQty, readyBuy, reduceQty, reduceReadyBuy, removeItem } from '../redux/action'
+import { IAppState } from '../../redux/reducers'
+import { addQty, readyBuy, reduceQty, reduceReadyBuy, removeItem } from '../../redux/action'
 import { useState } from 'react'
-import formatRupiah from '../utils/formatNumber'
+import formatRupiah from '../../utils/formatNumber'
 import { useHistory } from 'react-router-dom'
-import Checkbox from '../components/Checkbox'
+import { Header, Button, Checkbox, Footer } from '../../components'
 
 const Cart = () => {
     const history = useHistory()
