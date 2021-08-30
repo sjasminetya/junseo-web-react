@@ -1,0 +1,20 @@
+.carousel {
+    height:100%;
+	margin: 0;
+	width: 100%;
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+
+    .image-slide {
+        height: 400px;
+        width: 300px;
+        transition: background-image .3s ease-in-out;
+    }
+
+    .slide-arrow {
+        cursor: pointer;
+        font-size: 2rem;
+        align-self: center;
+    }
+}

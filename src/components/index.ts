@@ -7,6 +7,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Input from "./Input";
 import Loading from "./Loading";
+import Carousel from "./Carousel";
 import { Blog, Category, MostPopular, NewArrival, Success } from "./Elements";
 
 export {
@@ -23,5 +24,6 @@ export {
     NewArrival,
     Checkbox,
     Success,
-    Loading
+    Loading,
+    Carousel
 }

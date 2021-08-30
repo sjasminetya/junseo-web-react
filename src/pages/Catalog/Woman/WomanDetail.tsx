@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Header, Footer, Breadcrumb, Button, Loading } from '../../../components'
+import { Header, Footer, Breadcrumb, Button, Loading, Carousel } from '../../../components'
 import products from '../../../json/products.json'
 import formatNumber from '../../../utils/formatNumber'
 import { addToChart } from '../../../redux/action'
@@ -135,7 +135,7 @@ const WomanDetail = () => {
                             <hr />
                             <section className="container">
                                 <h3 className="text-center font-semibold">You May Also Like</h3>
-                                <AwesomeSlider>
+                                {/* <AwesomeSlider>
                                     {
                                         images.map((val, i) => (
                                             <div key={i}>
@@ -143,7 +143,8 @@ const WomanDetail = () => {
                                             </div>
                                         ))
                                     }
-                                </AwesomeSlider>
+                                </AwesomeSlider> */}
+                                <Carousel />
                             </section>
                         </div>
                     </>
